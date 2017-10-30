@@ -30,7 +30,7 @@ lazy val fansi = _root_.sbtcrossproject.CrossPlugin.autoImport.crossProject(JSPl
     }),
     libraryDependencies ++= Seq(
       "com.lihaoyi" %%% "sourcecode" % "0.1.4",
-      "com.lihaoyi" %%% "utest" % "0.5.3" % "test"
+      "com.lihaoyi" %%% "utest" % "0.6.0" % "test"
     ),
     testFrameworks := Seq(new TestFramework("utest.runner.Framework")),
     publishTo := Some("releases"  at "https://oss.sonatype.org/service/local/staging/deploy/maven2")
